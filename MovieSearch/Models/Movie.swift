@@ -9,20 +9,16 @@
 import Foundation
 
 struct Results: Codable {
-    var results: [Movie]
+    let results: [Movie]
 }
 
 struct Movie: Codable {
-    
-    
-    let image: String
     let id: Int
     let rating: Float
     let title: String
     let overview: String
     
     enum Codingkeys: String, CodingKey {
-        case image = "poster_path"
         case rating = "vote_average"
     }
 }

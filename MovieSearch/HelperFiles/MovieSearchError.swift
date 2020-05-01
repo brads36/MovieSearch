@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum AppleStoreError: LocalizedError {
+enum MovieSearchError: LocalizedError {
     
     case invalidURL
     case thrownError(Error)
