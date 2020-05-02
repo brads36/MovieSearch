@@ -24,20 +24,24 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     func updateViewsWithMovie() {
-        if let id = movie?.id {
-            MovieController.fetchImageWith(movieId: id) { (result) in
+        if let imagePath = movie?.imagePath {
+            MovieController.fetchImageWith(imagePath: imagePath) { (results) in
                 DispatchQueue.main.async {
-                    switch result {
+                    switch results {
+                        
                     case .success(let image):
                         self.movieImageView.image = image
                     case .failure(let error):
                         print(error.errorDescription ?? "Looks like we have an error")
                     }
                     self.movieTitleLabel.text = self.movie?.title
-                    //self.ratingLabel.text = self.movie?.rating
                     self.overviewLabel.text = self.movie?.overview
+                    guard let rating = self.movie?.rating else { return }
+                    self.ratingLabel.text = "\(rating)"
                 }
             }
         }
     }
 }
+
+

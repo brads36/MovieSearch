@@ -3,4 +3,118 @@
    uuid = "50B2BE66-3057-486B-97D9-0FA0D19632BC"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08DAF752-FE93-40C4-8955-5873ABE91970"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearch/Controllers/Model Controllers/MovieController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchMoviesFor(searchTerm:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17A5F7BA-6B74-4605-BBFA-03E02D1E39B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearch/Views/MovieTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateViewsWithMovie()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17A5F7BA-6B74-4605-BBFA-03E02D1E39B5 - f9b186ef65d2b159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;__C.UIImage, MovieSearch.MovieSearchError&gt;) -&gt; () in MovieSearch.MovieTableViewCell.updateViewsWithMovie() -&gt; ()"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brycebradshaw/Desktop/DevMountain/Assessments/Week3/MovieSearch/MovieSearch/Views/MovieTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "17A5F7BA-6B74-4605-BBFA-03E02D1E39B5 - f9b186ef65d2b159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;__C.UIImage, MovieSearch.MovieSearchError&gt;) -&gt; () in MovieSearch.MovieTableViewCell.updateViewsWithMovie() -&gt; ()"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brycebradshaw/Desktop/DevMountain/Assessments/Week3/MovieSearch/MovieSearch/Views/MovieTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08452277-B4D3-4EAD-9222-493B434FBE4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSearch/Controllers/Model Controllers/MovieController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fetchImageWith(imagePath:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08452277-B4D3-4EAD-9222-493B434FBE4A - fdc6ba4766d28798"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static MovieSearch.MovieController.fetchImageWith(imagePath: Swift.String, completion: (Swift.Result&lt;__C.UIImage, MovieSearch.MovieSearchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brycebradshaw/Desktop/DevMountain/Assessments/Week3/MovieSearch/MovieSearch/Controllers/Model%20Controllers/MovieController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1009">
+               </Location>
+               <Location
+                  uuid = "08452277-B4D3-4EAD-9222-493B434FBE4A - b2667952c0527587"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static MovieSearch.MovieController.fetchImageWith(imagePath: Swift.String, completion: (Swift.Result&lt;__C.UIImage, MovieSearch.MovieSearchError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MovieSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brycebradshaw/Desktop/DevMountain/Assessments/Week3/MovieSearch/MovieSearch/Controllers/Model%20Controllers/MovieController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "258">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

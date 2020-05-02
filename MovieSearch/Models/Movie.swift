@@ -13,12 +13,17 @@ struct Results: Codable {
 }
 
 struct Movie: Codable {
-    let id: Int
     let rating: Float
+    let imagePath: String?
+    let id: Int
     let title: String
     let overview: String
     
-    enum Codingkeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case rating = "vote_average"
+        case imagePath = "poster_path"
+        case id
+        case title
+        case overview
     }
 }
